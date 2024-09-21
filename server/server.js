@@ -13,6 +13,7 @@ app.use(express.static("client"));
 // parse post params sent in body in json format
 app.use(express.json());
 
+
 /**
  * Generate an OAuth 2.0 access token for authenticating with PayPal REST APIs.
  * @see https://developer.paypal.com/api/rest/authentication/
